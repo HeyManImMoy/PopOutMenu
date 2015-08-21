@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:lynn="http://schemas.android.com/apk/res/com.lynn.popoutmenu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lynn.popoutmenu.MainActivity" >
+
+    <ListView
+        android:id="@+id/id_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/id_menu1"
+        layout="@layout/menu_left_bottom" />
+
+    <include
+        android:id="@+id/id_menu2"
+        layout="@layout/menu_right_bottom" />
+
+    <include
+        android:id="@+id/id_menu3"
+        layout="@layout/menu_left_top" />
+
+</RelativeLayout>

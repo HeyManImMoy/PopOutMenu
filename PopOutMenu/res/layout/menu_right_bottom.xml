@@ -1,0 +1,42 @@
+<com.lynn.popoutmenu.view.PopOutMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:lynn="http://schemas.android.com/apk/res/com.lynn.popoutmenu"
+    android:id="@+id/id_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    lynn:direction="up"
+    lynn:position="right_bottom"
+    lynn:radius="200dp"
+    lynn:type="straight" >
+
+    <ImageView
+        android:id="@+id/id_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/first"
+        android:tag="Music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/second"
+        android:tag="Place" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/third"
+        android:tag="Thought" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fourth"
+        android:tag="With" />
+
+</com.lynn.popoutmenu.view.PopOutMenu>
